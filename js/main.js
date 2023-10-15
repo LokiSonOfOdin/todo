@@ -6,7 +6,7 @@ import {
   addTask,
   changeStatus,
   deleteTask,
-} from './module/todo_program.js'
+} from './module/todo_program.js' 
 
 function constructorTaskUi(name, status, priority) {
   const containerTask = createTag('div')
